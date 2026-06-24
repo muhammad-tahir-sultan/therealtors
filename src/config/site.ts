@@ -1,0 +1,107 @@
+import type { SiteConfig } from "@/niche-ui";
+
+export const siteConfig: SiteConfig = {
+  niche: "Real Estate",
+  demoBadge: "Demo Website — Chen Realty Group",
+  business: {
+    name: "Chen Realty Group",
+    shortName: "Chen Realty",
+    tagline: "Your City Real Estate Expert",
+    phone: "(555) 234-5678",
+    email: "emily@chenrealty.com",
+    address: "Serving Downtown, Westside & Oak Park",
+    hours: "Available 7 days a week",
+  },
+  branding: {
+    primary: "#059669",
+    accent: "#2563EB",
+    heroGradient: "linear-gradient(135deg, #059669 0%, #10B981 50%, #2563EB 100%)",
+  },
+  nav: [
+    { href: "/", label: "Home" },
+    { href: "/about", label: "About" },
+    { href: "/services", label: "Listings" },
+    { href: "/team", label: "Agent" },
+    { href: "/home-valuation", label: "Home Value" },
+    { href: "/testimonials", label: "Reviews" },
+    { href: "/contact", label: "Contact" },
+  ],
+  hero: {
+    badge: "Top Agent in Your City",
+    headline: "Find Your Dream Home in Your City",
+    subheadline: "Emily Chen helps buyers and sellers navigate the local market with expert guidance and proven results.",
+    primaryCta: { label: "Search Listings", href: "/services" },
+    secondaryCta: { label: "What's My Home Worth?", href: "/home-valuation" },
+  },
+  trust: ["$45M+ Sold", "12 Years Experience", "Top 5% Agent", "200+ Happy Clients"],
+  problems: [
+    { title: "No Personal Brand", description: "Generic pages don't differentiate you from competitors." },
+    { title: "Listings Hidden", description: "Properties aren't showcased to keep buyers engaged." },
+    { title: "Missing Seller Leads", description: "No home valuation tool means lost seller opportunities." },
+    { title: "Weak Neighborhood SEO", description: "Buyers search by neighborhood — you're not showing up." },
+    { title: "Lost to Portals", description: "Zillow captures leads that should go to you." },
+    { title: "Poor Mobile UX", description: "Buyers search on phones — your site must perform." },
+  ],
+  solutions: [
+    { title: "Listing Showcase", description: "Beautiful property galleries that keep buyers browsing." },
+    { title: "Home Valuation Capture", description: "Free valuation forms that convert sellers into clients." },
+    { title: "Neighborhood Authority", description: "Guides that rank for local home searches." },
+    { title: "Personal Brand", description: "Stand out as THE local expert." },
+  ],
+  services: [
+    { slug: "active-listings", title: "Active Listings", description: "Browse our current portfolio of homes for sale.", benefits: ["Updated daily", "Virtual tours", "Open house schedule", "Showing requests"] },
+    { slug: "buyer-services", title: "Buyer Representation", description: "Expert guidance from search to closing.", benefits: ["Neighborhood matching", "Negotiation", "Mortgage referrals", "Closing support"] },
+    { slug: "seller-services", title: "Seller Services", description: "Maximize value and sell faster.", benefits: ["Market analysis", "Staging advice", "Marketing plan", "Offer negotiation"] },
+    { slug: "luxury-homes", title: "Luxury Properties", description: "Exclusive listings for discerning clients.", benefits: ["Private showings", "Discreet marketing", "Global network", "Concierge"] },
+    { slug: "investment", title: "Investment Properties", description: "Data-driven advice for investors.", benefits: ["ROI analysis", "Rental insights", "Portfolio strategy", "Off-market deals"] },
+    { slug: "neighborhoods", title: "Neighborhood Guides", description: "Explore communities across the metro.", benefits: ["School ratings", "Market trends", "Amenities", "Price history"] },
+  ],
+  team: [
+    { name: "Emily Chen", role: "Lead Agent · REALTOR®", credentials: "CRS · ABR · 12 Years", bio: "$45M+ in career sales across downtown and suburban markets." },
+    { name: "Marcus Webb", role: "Buyer's Specialist", credentials: "REALTOR® · 8 Years", bio: "Expert at matching families with the perfect neighborhood." },
+    { name: "Sofia Reyes", role: "Listing Coordinator", credentials: "Marketing Specialist", bio: "Creates compelling listing presentations that sell faster." },
+  ],
+  testimonials: [
+    { name: "Mark & Lisa P.", detail: "Home Sellers", rating: 5, review: "Emily sold our home in 5 days above asking. Incredible marketing!" },
+    { name: "David R.", detail: "First-Time Buyer", rating: 5, review: "Found the perfect home in our budget. Patient and knowledgeable." },
+    { name: "Susan T.", detail: "Investor", rating: 5, review: "Market analysis helped us build a profitable rental portfolio." },
+  ],
+  about: {
+    mission: "To guide every client through their real estate journey with honesty, expertise, and exceptional service.",
+    vision: "To be the most trusted real estate brand in our market.",
+    story: "Emily Chen founded Chen Realty Group after 12 years with top brokerages, helping 200+ families buy and sell.",
+    values: [
+      { title: "Integrity", description: "Honest advice, always." },
+      { title: "Results", description: "Every strategy achieves your goals." },
+      { title: "Communication", description: "Always available and transparent." },
+      { title: "Expertise", description: "Deep local market knowledge." },
+    ],
+    whyChooseUs: ["Proven track record", "Personalized service", "Strong negotiation", "Full marketing", "7-day availability"],
+  },
+  cta: {
+    title: "Thinking of Buying or Selling?",
+    subtitle: "Get a free market analysis from Emily Chen.",
+    primaryCta: { label: "Get Home Valuation", href: "/home-valuation" },
+    secondaryCta: { label: "Schedule a Call", href: "/contact" },
+  },
+  contact: {
+    headline: "Let's Talk About Your Goals",
+    subheadline: "Whether buying, selling, or investing — we're here to help.",
+    formFields: ["Name", "Email", "Phone", "Buyer/Seller", "Message"],
+  },
+  seo: {
+    title: "Chen Realty Group | Real Estate Agent in Your City",
+    description: "Buy or sell in Your City. $45M+ sold. Free home valuation.",
+  },
+  extraPage: {
+    slug: "home-valuation",
+    navLabel: "Home Value",
+    title: "What's Your Home Worth?",
+    sections: [
+      { title: "Free Market Analysis", content: "Accurate estimate based on recent sales, trends, and property condition." },
+      { title: "What You'll Receive", content: ["Comparable sales report", "Market conditions", "Recommended price", "Selling strategy"] },
+      { title: "No Obligation", content: "Completely free with no pressure to list." },
+      { title: "How It Works", content: ["Submit your address", "Review local comps", "Report within 24 hours", "Optional consultation"] },
+    ],
+  },
+};
